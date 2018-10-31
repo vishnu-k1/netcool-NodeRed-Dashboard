@@ -9,5 +9,11 @@ Advantages:-
 - Portable to multiple platforms
 - Easy to deploy at IBM Bluemix node-r
 
+Dashboard :
+----------
+ ![flow](dashboard.jpg)
 
+
+Flow post import on node-red flow editor :
+-----------------------------------------
 ![flow](flow.jpg)
