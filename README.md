@@ -2,12 +2,6 @@
 
 Apart from webgui widgets for those who need realtime monitoring of aggregation data can use this dashboard.
 
-Advantages:- 
-- Economic solution to alert data visualization.
-- Dashboard serves as key for identifying anomalies 
-- Provides insight on real-time alert data
-- Portable to multiple platforms
-- Easy to deploy at IBM Bluemix node-r
 
 Dashboard :
 ----------
@@ -56,3 +50,12 @@ npm i node-red-dashboard --save
 - Edit the [NetcoolObjectServer Query] Node to feed in Netcool omnibus Http access url and cerentials.
   (please do verfiy from browser before feed data to this while accessing it must return a object server alert data on browser)
   
+  ### Step 5:Accessging dashboard
+  - you can access the dashboard via url http://localhost:1880/ui/#/0
+  
+## Production Senarios were this dashboard can be user
+  
+- lighter version solution to alert data visualization is in need
+- multiple platforms access
+- Critical care application monitoring dashboard
+- Command center single status console summary
