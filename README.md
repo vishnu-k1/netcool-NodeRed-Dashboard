@@ -8,3 +8,6 @@ Advantages:-
 - Provides insight on real-time alert data
 - Portable to multiple platforms
 - Easy to deploy at IBM Bluemix node-r
+
+
+![flow](flow.png)
