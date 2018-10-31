@@ -42,15 +42,17 @@ yum install gcc-c++ make
 npm i node-red-dashboard --save
 ```
 
-### Step 3:Install Node.js,node-red and node-red dashboard module at linux desktop/Server
+### Step 3:Securing Node-red dashboard
+- There are couple of authentication mechanism avilable to make dashboard (1.http static id 2.twitter and git hub Oauth services) secure please reffer to below link to implemenet 
+   https://nodered.org/docs/security 
+   
 ### Step 4:Import the dashboardFlow.json
 - Login to the flow editor using url https://localhost:1880/red 
 - import the dashboardFlow.json using option avilable at top right corner
-- once imported flow will look like below picture
+- once imported flow will look like content at below picture
 
   #### Flow post import on node-red flow editor :
-       -----------------------------------------
      ![flow](flow.jpg)
-- Edit the [NetcoolObjectServer Query] Node to feed in Netcool omnibus Http access url and cerentials
+- Edit the [NetcoolObjectServer Query] Node to feed in Netcool omnibus Http access url and cerentials.
   (please do verfiy from browser before feed data to this while accessing it must return a object server alert data on browser)
   
