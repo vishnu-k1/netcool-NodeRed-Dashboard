@@ -7,10 +7,10 @@ Key at dashbaord
 - Aggregate the top contibuted alerts
 - Realtime graph of alarm count along with timeline
 
-Alert normalization used is mentione in below table before implementing please ensure whether
-this normalization is ablicable for your envionment. If not do replace at flow file with respective field before importing to node-red.
+Alert normalization used is as mentioned below, before implementing please ensure whether this normalization is aplicable for target envionment. 
+If not do replace at flow file with respective field before importing to node-red.
 
-Node         - Server/Device name must be present 
+Node         - Server/Device name must be present
 AlertKey     - Monitoring category 
 AlertGroup   - Monitoring category 
 TicketGroup  - ITSM tool Support group where ticket should go 
