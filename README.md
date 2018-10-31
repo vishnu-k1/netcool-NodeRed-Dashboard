@@ -66,5 +66,8 @@ npm i node-red-dashboard --save
 ## Production Scenarios were this dashboard can be used
   
 - Lighter version solution for alert data visualization.
-- Critical care application monitoring dashboard
+- Critical care application monitoring dashboard.
 - Command centre single status console summary.
+
+## Author
+- Vishnu Kandhappan (https://www.linkedin.com/in/vishnu-kandhappan-b6632169)
