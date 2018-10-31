@@ -56,6 +56,5 @@ npm i node-red-dashboard --save
 ## Production Senarios were this dashboard can be user
   
 - lighter version solution to alert data visualization is in need
-- multiple platforms access
 - Critical care application monitoring dashboard
 - Command center single status console summary
