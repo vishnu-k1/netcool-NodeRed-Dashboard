@@ -10,13 +10,13 @@ Key at dashbaord
 Alert normalization used is mentione in below table before implementing please ensure whether
 this normalization is ablicable for your envionment. If not do replace at flow file with respective field before importing to node-red.
 
-| Node         | Server/Device name must be present 
-| AlertKey     | Monitoring category 
-| AlertGroup   | Monitoring category 
-| TicketGroup  | ITSM tool Support group where ticket should go 
-| TicketNumber | ITSM tool ticket number
-| CILocation   | Configuration iteam location (Enrichment from extenal source) 
-| OSCatogory   | Configuration iteam OS information (Enrichment from extenal source)
+Node         - Server/Device name must be present 
+AlertKey     - Monitoring category 
+AlertGroup   - Monitoring category 
+TicketGroup  - ITSM tool Support group where ticket should go 
+TicketNumber - ITSM tool ticket number
+CILocation   - Configuration iteam location (Enrichment from extenal source) 
+OSCatogory   - Configuration iteam OS information (Enrichment from extenal source)
 
 
 Dashboard :
