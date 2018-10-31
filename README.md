@@ -47,8 +47,9 @@ npm i node-red-dashboard --save
 - Login to the flow editor using url https://localhost:1880/red 
 - import the dashboardFlow.json using option avilable at top right corner
 - once imported flow will look like below picture
-  Flow post import on node-red flow editor :
-  -----------------------------------------
+
+  #### Flow post import on node-red flow editor :
+       -----------------------------------------
      ![flow](flow.jpg)
 - Edit the [NetcoolObjectServer Query] Node to feed in Netcool omnibus Http access url and cerentials
   (please do verfiy from browser before feed data to this while accessing it must return a object server alert data on browser)
