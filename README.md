@@ -10,13 +10,7 @@ Key at dashboard
 Alert normalization used as below, before implementing please ensure whether this normalization is applicable for target environment. 
 If not, do replace the flow file with respective field before importing to node-red.
 
-Node         - Server/Device name must be present
-AlertKey     - Monitoring category 
-AlertGroup   - Monitoring category 
-TicketGroup  - ITSM tool ticketing Support group 
-TicketNumber - ITSM tool ticket number
-CILocation   - Configuration item location (Enrichment from extenal source) 
-OSCatogory   - Configuration item OS information (Enrichment from extenal source)
+![normalization](normalization.jpg)
 
 
 Dashboard :
