@@ -32,6 +32,17 @@ NHttpd.SSLCertificate : “certificatelabel”
 NHttpd.SSLCertificatePwd : “password”
 
 ```
+### Step 2:Install Node.js,node-red and node-red dashboard module at linux desktop/Server
+- Below are the command sets to install reqired node-red platform to host this dashboard solution
+```
+curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
+yum install -y nodejs
+yum install gcc-c++ make
+/bin/npm install -g --unsafe-perm node-red
+npm i node-red-dashboard --save
+```
+
+### Step 3:Install Node.js,node-red and node-red dashboard module at linux desktop/Server
 
 Flow post import on node-red flow editor :
 -----------------------------------------
