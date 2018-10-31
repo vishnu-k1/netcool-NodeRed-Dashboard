@@ -43,7 +43,13 @@ npm i node-red-dashboard --save
 ```
 
 ### Step 3:Install Node.js,node-red and node-red dashboard module at linux desktop/Server
-
-Flow post import on node-red flow editor :
------------------------------------------
-![flow](flow.jpg)
+### Step 4:Import the dashboardFlow.json
+- Login to the flow editor using url https://localhost:1880/red 
+- import the dashboardFlow.json using option avilable at top right corner
+- once imported flow will look like below picture
+  Flow post import on node-red flow editor :
+  -----------------------------------------
+     ![flow](flow.jpg)
+- Edit the [NetcoolObjectServer Query] Node to feed in Netcool omnibus Http access url and cerentials
+  (please do verfiy from browser before feed data to this while accessing it must return a object server alert data on browser)
+  
