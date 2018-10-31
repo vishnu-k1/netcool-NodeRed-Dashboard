@@ -1,11 +1,27 @@
 # netcool-NodeRed-Dashboard
 
-Apart from webgui widgets for those who need realtime monitoring of aggregation data can use this dashboard.
+This solution provides a jazzy real-time dashboard to the user community for understanding alert trending pattern in detail, health widgets at this monitoring dashboard will provide a over all health status and insight of alert catogries which contibuted more. 
+
+Key at dashbaord
+- Gauges for alert catogories
+- Aggregate the top contibuted alerts
+- Realtime graph of alarm count along with timeline
+
+Alert normalization used is mentione in below table before implementing please ensure whether
+this normalization is ablicable for your envionment. If not do replace at flow file with respective field before importing to node-red.
+
+| Node         | Server/Device name must be present 
+| AlertKey     | Monitoring category 
+| AlertGroup   | Monitoring category 
+| TicketGroup  | ITSM tool Support group where ticket should go 
+| TicketNumber | ITSM tool ticket number
+| CILocation   | Configuration iteam location (Enrichment from extenal source) 
+| OSCatogory   | Configuration iteam OS information (Enrichment from extenal source)
 
 
 Dashboard :
 ----------
- ![flow](dashboard.jpg)
+ ![dashboard](dashboard.jpg)
 
 ## Implementation Steps:
 
